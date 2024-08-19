@@ -9,5 +9,6 @@
 	<Script file="merge_allied_race.lua"/>
 	<Script file="merge_shadowlands.lua"/>
 	<Script file="merge_dragonflight.lua"/>
+	<Script file="merge_trinkets.lua"/>
 	<Script file="profile.lua"/>
 </Ui>

@@ -758,6 +758,7 @@ addon.options.args["spells"] = {
       name = "Global Spells",
       type = 'group',
       order = 22,
+      childGroups = 'select',
       args = {
         title = {
           type = 'description',
@@ -772,6 +773,18 @@ addon.options.args["spells"] = {
           fontSize = "small",
           name = "Uncheck an item if you do not want it merged. Contact me to add new items. See |cffFFFF00Credits|r for contact info.\n\n",
         },
+
+
+        ["VANILLA"] = { type = 'group', order = 1,  name = "|cffC79C6EWorld Of Warcraft|r" },
+        ["BC"] = { type = 'group', order = 2,  name = "|cff#40BC40The Burning Crusage|r" },
+        ["WOLTK"]       = { type = 'group', order = 3,  name = "|cff3FC7EBWrath Of Lich Kingr" },
+        ["CATA"]      = { type = 'group', order = 4,  name = "|cFFA32C12Cataclysm|r" }, 
+        ["MOP"]      = { type = 'group', order = 5,  name = "|cffF1A864Mists of Pandaria|r" }, 
+        ["WOD"]        = { type = 'group', order = 6,  name = "|cffA32C12Warlords of Draenor|r" },
+        ["LEGION"]        = { type = 'group', order = 7,  name = "|cff93BE3DLegion|r" },
+        ["BFA"]     = { type = 'group', order = 8,  name = "|cff325A93Battle for Azeroth|r" },
+        ["SL"]      = { type = 'group', order = 9,  name = "|cffd2d3d8ShadowLands|r" },
+        ["DF"]       = { type = 'group', order = 10,  name = "|cff33937FDragonflight|r" },
       },
     },
 

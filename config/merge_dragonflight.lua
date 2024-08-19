@@ -36,4 +36,11 @@ end
 header "|cffd2d3d8Dragonflight|r™ |cff798BDDEnchants|r"
 do
 	alias '426527' '426535' -- Amirdrassil Head Enchant (Melee) - 2nd Effect
+-- @TODO : Spells of covennats doesn't appear in config tab, creat covenant tab?
+end
+
+header "|cff7aa3adDragonFlight|r™ |cff798BDDTier-Sets|r"
+do
+    item '409890' '0.5' "Sinister Savant's CurseThreads" -- Warlock T30 Destruction
+	item '423584' '0.5' "Devout Ashdevil's Pactweave" -- Warlock T31 Demonology
 end

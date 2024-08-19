@@ -182,13 +182,16 @@ do
 	spell '120361' '1.5' --  Talent: Barrage
 	spell '199483' '5.0' --  Camouflage
 	spell '339400' '8.5' --  Rejuvenating Wind (every 1s for 8s)
+	spell '375893' '1.5' --  Talent: Death Chakram
 	alias '214303' '136' --  Mend Pet
 
 	spec  '253' -- Beast Mastery
 	spell '118459' '2.5' --  Pet: Beast Cleave
 	spell '207097' '1.5' --  Artifact: Titan's Thunder
 	spell '217200' '4.5' --  Barbed Shot (Seems every 2s over 8s)
+	spell '392058' '0.5' --  Talent: Wailing Arrow
 	alias '171457' '171454' --  [Cleave Merger] Chimaera Shot
+
 
 	spec  '254' -- Marksmanship
 	spell '214581' '1.5' --  Talent: Sidewinders
@@ -225,6 +228,7 @@ class 'MAGE'
 do
 	spec  '0' -- All Specs
 	spell '122' '1.5' --  Frost Nova
+	spell '382445' '2.0' -- Talent: Shifting Power
 
 	spec  '62' -- Arcane
 	spell '7268'   '2.5' --  Arcane Missiles
@@ -239,7 +243,7 @@ do
 	spec  '63' -- Fire
 	spell '235314' '1.5' --  Blazing Barrier (DMG)
 	spell '2120'   '1.5' --  Flamestrike (Longer for talent)
-	spell '12654'  '2.5' --  Ignite (DoT)
+	spell '12654'  '3.5' --  Ignite (DoT)
 	spell '11366'  '2.5' --  Pyroblast
 	spell '205345' '2.5' --  Talent: Conflagration
 	spell '88082'  '2.0' --  Talent: Mirror Images
@@ -251,6 +255,7 @@ do
 	alias '205472' '2120'   --  [DD/DoT Merger] Talent: Flame Patch
 	alias '244813' '217694' --  [DD/DoT Merger] multi target living bomb
 	alias '277703' '11366'  -- [DD/Splash Merger] Pyroblast
+	alias '419800' '12654' --  [DD/DoT/Splash Merger] Talent: Intesifying Flame (DOT/AOE) proc on ignite
 
 	spec  '64' -- Frost
 	spell '84721'  '1.5' --  Frozen Orb
@@ -397,10 +402,13 @@ do
 	spell '263165' '3.9' --  Talent: Void Torrent
 	spell '204778' '2.5' --  Honor Talent: Void Shield
 	spell '346111' '2.0' --  Mastery: Shadow Weaving (Shadowfiend/Mindbender extra mastery damage)
+	spell '373304' '1.5' --  Talent : Echo of N'Zoth (Echoing Void)
+	spell '413231' '1.5' --  Shadowy apparitions
 	alias '228361' '228360' --  Void Eruption Merger
 	alias '263446' '228360' --  Void Eruption Merger
-	alias '49821' '48045'  --  Mind Sear Merger
+	alias '49821'  '48045'  --  Mind Sear Merger
 	alias '396895' '48045' --  Mind Sear Merger
+	alias '394979' '48045' --  Talent : Echo of C'Thun (Mind Sear)
 
 end
 
@@ -453,6 +461,7 @@ do
 	alias '77451'  '51505'  --  [Mastery Merger] Lavaburst Overload
 	alias '45297'  '188443' --  [Mastery Merger] Chain Lightning Overload
 	alias '45284'  '188196' --  [Mastery Merger] Lightning Bolt Overload
+	alias '298765' '77478' -- [Talent Merger] Echoes of the great Sundering / Earthquake
 
 	spec  '263' -- Enhancement
 	spell '195256' '1.5' --  Stormlash (Gets Spammy!)

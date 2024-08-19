@@ -21,13 +21,13 @@ local ADDON_NAME, addon = ...
 -- @TODO : Spells of covennats doesn't appear in config tab, creat covenant tab?
 
 local spell, _, _, alias, item, header = unpack(addon.merge_helpers)
-header "|cffd2d3d8SL|r™ |cff798BDDWorld Zones|r"
+header "|cffd2d3d8ShadowLands|r™ |cff798BDDWorld Zones|r"
 do
 	item '327909' '0.5' "breaking ashen phylactery" -- Thorgast
 	item '6660'	  '0.5' "Wild hunt guardian"		-- Battle of Ardenweald questline 9.1
 end
 
-header " 9.x |cffd2d3d8ShadowLands|r™ |cff798BDDCovenants|r"
+header "|cffd2d3d8ShadowLands|r™ |cff798BDDCovenants|r"
 do
 	-- warlock
 	-- Night Fae
@@ -67,13 +67,13 @@ do
 
 end
 
-header " 9.x |cffd2d3d8ShadowLands|r™ |cff798BDDQuest Spells|r"
+header "|cffd2d3d8ShadowLands|r™ |cff798BDDQuest Spells|r"
 do
 	-- Ardenweald
 	item '343048' '1.0' "Nature's Blessing"
 end
 
-header " 9.x |cffd2d3d8ShadowLands|r™ |cff798BDDTrinkets|r"
+header "|cffd2d3d8ShadowLands|r™ |cff798BDDTrinkets|r"
 do
 	alias '344540' '180117' -- Trinket: Empyreal Ordnance dot
 
@@ -94,7 +94,7 @@ do
 	item  '355087' '1.0' "Fine Razorwing Quill"
 end
 
-header " 9.x |cffd2d3d8ShadowLands|r™ |cff798BDDLegendaries|r"
+header "|cffd2d3d8ShadowLands|r™ |cff798BDDLegendaries|r"
 do
 	-- Priest
 	alias '193473' '336214' -- Eternal Call to the Void: Mind Flay
@@ -106,7 +106,7 @@ do
 
 end
 
-header " 9.x |cffd2d3d8ShadowLands|r™ |cff798BDDEnchants|r"
+header "|cffd2d3d8ShadowLands|r™ |cff798BDDEnchants|r"
 do
 	item '324184' '1.5' "Lightless Force"
 	item '336463' '2.5' "Shadowcore Oil"
